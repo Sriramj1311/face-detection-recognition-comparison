@@ -1,0 +1,12 @@
+streamlit>=1.32
+opencv-python>=4.8
+numpy<2
+pandas
+matplotlib
+Pillow
+deepface>=0.0.93
+tf-keras
+tensorflow>=2.13,<2.17
+torch
+torchvision
+facenet-pytorch
