@@ -8,7 +8,14 @@ venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
+# Comparative Face Detection and Recognition
+FaceNet • DeepFace • Template Matching • Viola-Jones (Streamlit app)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://face-detection-recognition-comparison-f2fwckzyzkqrc5z754vbez.streamlit.app/)
+
+**Live demo:** https://face-detection-recognition-comparison-f2fwckzyzkqrc5z754vbez.streamlit.app/
+
+> Note: the first upload may take a while because the FaceNet and DeepFace models download on first use. The free hosted version can be slow or restart under memory limits, so for best results run it locally (see below).
 ## How to use
 1. (Optional) In the sidebar upload reference faces (and click "Save to database folder") - needed for recognition/verification.
 2. (Optional) Upload a template image - needed for Template Matching (e.g. a cropped face from the main image).
